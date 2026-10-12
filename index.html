@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-HK" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>維港信貸 Income Gold Credit Limited | 專業靈活貸款服務</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .bg-navy { background-color: #1B2B4B; }
+        .text-navy { color: #1B2B4B; }
+        .bg-gold { background-color: #C5A059; }
+        .text-gold { color: #C5A059; }
+        .border-gold { border-color: #C5A059; }
+        .hover-gold:hover { background-color: #B38F48; }
+        
+        /* 圖片向右移：背景對齊調整至右側 90% 位置，人臉更清晰獨立呈現 */
+        .hero-banner-bg {
+            background: linear-gradient(90deg, rgba(27, 43, 75, 0.98) 0%, rgba(27, 43, 75, 0.94) 45%, rgba(27, 43, 75, 0.2) 70%, transparent 100%), 
+                        url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1920&auto=format&fit=crop');
+            background-size: cover;
+            background-position: 90% 25%;
+        }
+
+        /* Pulse animation for WhatsApp Floating Icon */
+        @keyframes pulse-green {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+        .whatsapp-float {
+            animation: pulse-green 2s infinite;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased relative">
+
+    <!-- Sticky Floating WhatsApp Button -->
+    <a href="https://wa.me/85255375653?text=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%83%B3%E6%9F%A5%E8%A9%A2%E7%B6%AD%E6%B8%AF%E4%BF%A1%E8%B2%B8%E7%9A%84%E8%B2%B8%E6%AC%BE%E6%96%B9%E6%A1%88" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       class="whatsapp-float fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-2xl flex items-center justify-center hover:bg-[#20ba5a] transition duration-300 transform hover:scale-110 group"
+       title="WhatsApp 即時查詢 55375653">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+        <span class="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs transition-all duration-500 ease-in-out font-bold text-sm px-0 group-hover:px-2">
+            WhatsApp 即時查詢 5537 5653
+        </span>
+    </a>
+
+    <!-- Top Info Bar -->
+    <div class="bg-navy text-white text-xs py-2 px-4 border-b border-gray-700">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+            <div class="flex flex-wrap items-center gap-4">
+                <span><i class="fa-solid fa-certificate text-gold mr-1"></i> 放債人牌照號碼：946/2026</span>
+                <span class="hidden sm:inline"><i class="fa-solid fa-location-dot text-gold mr-1"></i> 九龍油麻地彌敦道518-520號彌敦行11樓B室</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="tel:55375653" class="hover:text-gold transition flex items-center gap-1">
+                    <i class="fa-solid fa-phone text-gold"></i> 5537 5653
+                </a>
+                <a href="https://wa.me/85255375653" target="_blank" class="hover:text-gold transition flex items-center gap-1 text-[#25D366]">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="mailto:incomegoldcredit@gmail.com" class="hover:text-gold transition hidden lg:inline">
+                    <i class="fa-solid fa-envelope text-gold mr-1"></i> incomegoldcredit@gmail.com
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header / Navigation Bar -->
+    <header class="bg-white shadow-md sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#home" class="flex items-center gap-3">
+                <div class="w-10 h-10 border-2 border-navy flex items-center justify-center transform rotate-45">
+                    <div class="w-6 h-6 border border-gold transform -rotate-12"></div>
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold text-navy tracking-wider">維港信貸</h1>
+                    <p class="text-[10px] text-gray-500 font-semibold tracking-widest uppercase">Income Gold Credit Limited</p>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center space-x-8 font-medium text-sm">
+                <a href="#home" class="text-navy hover:text-gold transition">首頁</a>
+                <a href="#services" class="text-gray-600 hover:text-gold transition">貸款服務</a>
+                <a href="#advantages" class="text-gray-600 hover:text-gold transition">優勢特色</a>
+                <a href="#steps" class="text-gray-600 hover:text-gold transition">申請流程</a>
+                <a href="#contact" class="text-gray-600 hover:text-gold transition">聯絡我們</a>
+            </nav>
+
+            <a href="#apply" class="bg-gold text-white px-5 py-2.5 rounded-lg shadow hover-gold transition font-bold text-sm flex items-center gap-2">
+                <i class="fa-solid fa-paper-plane"></i> 網上即時申請
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section (圖像已向右移，人臉極度清晰) -->
+    <section id="home" class="relative hero-banner-bg text-white py-20 px-4 min-h-[640px] flex items-center overflow-hidden">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center w-full">
+            <!-- Left Text Content Section -->
+            <div class="lg:col-span-7 z-10 pr-0 lg:pr-6">
+                <span class="bg-gold/90 text-white text-xs font-bold px-3.5 py-1.5 rounded-full uppercase tracking-wider mb-4 inline-block shadow">
+                    笑面迎人 · 靈活周轉 · 值得信賴
+                </span>
+                <h2 class="text-3xl md:text-5xl font-extrabold leading-tight mb-6 drop-shadow-md">
+                    維港信貸 — 您的財務好夥伴 <br>
+                    <span class="text-gold">助您輕鬆解決資金需要</span>
+                </h2>
+                <p class="text-gray-100 mb-8 text-lg md:text-xl font-light drop-shadow max-w-xl">
+                    專人親切跟進，審批快捷，款項即日到手。為您量身訂造最合適的還款方案，陪伴您邁向財務自由。
+                </p>
+
+                <!-- 3 Key Features Pills (大字體、高辨識度) -->
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8 max-w-xl">
+                    <div class="bg-navy/85 backdrop-blur-sm px-4 py-3.5 rounded-xl border border-white/15 flex items-center gap-2.5 shadow-md">
+                        <i class="fa-solid fa-bolt text-gold text-base"></i>
+                        <span class="text-sm font-bold">特快審批 即日提款</span>
+                    </div>
+                    <div class="bg-navy/85 backdrop-blur-sm px-4 py-3.5 rounded-xl border border-white/15 flex items-center gap-2.5 shadow-md">
+                        <i class="fa-solid fa-shield-halved text-gold text-base"></i>
+                        <span class="text-sm font-bold">彈性條款 免查 TU</span>
+                    </div>
+                    <div class="bg-navy/85 backdrop-blur-sm px-4 py-3.5 rounded-xl border border-white/15 flex items-center gap-2.5 shadow-md">
+                        <i class="fa-solid fa-handshake-simple text-gold text-base"></i>
+                        <span class="text-sm font-bold">費用全免 完全透明</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap gap-4">
+                    <a href="#apply" class="bg-gold text-white font-bold px-8 py-3.5 rounded-lg hover-gold shadow-lg transition flex items-center gap-2">
+                        <i class="fa-solid fa-paper-plane"></i> 即時網上申請
+                    </a>
+                    <a href="https://wa.me/85255375653" target="_blank" class="bg-[#25D366] text-white font-bold px-8 py-3.5 rounded-lg hover:bg-[#20ba5a] shadow-lg transition flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-xl"></i> WhatsApp 查詢
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right Spacer -->
+            <div class="hidden lg:block lg:col-span-5 h-full min-h-[420px]"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 px-4 max-w-7xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-navy mb-3">我們的專業貸款服務</h2>
+            <p class="text-gray-600">針對不同個人與企業資金需求，提供多元靈活的信貸解決方案</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition border-t-4 border-navy flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 bg-blue-50 rounded-lg flex items-center justify-center text-navy text-2xl mb-6">
+                        <i class="fa-solid fa-user-gear"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy mb-3">私人快捷貸款</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                        專為上班族、自僱人士及斜槓族而設，申請簡單，無需複雜證明文件，適合日常應急或短中期資金周轉。
+                    </p>
+                </div>
+                <a href="#apply" class="text-gold font-bold text-sm hover:underline flex items-center gap-1">立即申請 <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition border-t-4 border-gold flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 bg-amber-50 rounded-lg flex items-center justify-center text-gold text-2xl mb-6">
+                        <i class="fa-solid fa-credit-card"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy mb-3">結餘轉戶 (清卡數)</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                        重組高息信用卡欠款及多筆小額貸款，一筆過整合清還，大幅減輕利息支出，拉長還款期，重獲財務輕鬆。
+                    </p>
+                </div>
+                <a href="#apply" class="text-gold font-bold text-sm hover:underline flex items-center gap-1">立即申請 <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition border-t-4 border-navy flex flex-col justify-between">
+                <div>
+                    <div class="w-14 h-14 bg-blue-50 rounded-lg flex items-center justify-center text-navy text-2xl mb-6">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy mb-3">大額 / 中小企周轉</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                        為中小企業及創業者提供龐大資金支持，專人一對一對接評估，客製化還款計劃，助您的生意擴張無後顧之憂。
+                    </p>
+                </div>
+                <a href="#apply" class="text-gold font-bold text-sm hover:underline flex items-center gap-1">立即申請 <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Advantages Section -->
+    <section id="advantages" class="bg-navy text-white py-16 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gold mb-3">為何選擇維港信貸？</h2>
+                <p class="text-gray-300">我們秉持誠信、透明、親切的態度，為每一位客戶提供最適切的信貸方案</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <div class="p-6 bg-white/5 rounded-xl border border-white/10">
+                    <i class="fa-solid fa-clock text-gold text-4xl mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">特快批核</h3>
+                    <p class="text-xs text-gray-300">最快 15 分鐘完成審批，解決燃眉之急。</p>
+                </div>
+                <div class="p-6 bg-white/5 rounded-xl border border-white/10">
+                    <i class="fa-solid fa-shield-halved text-gold text-4xl mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">高度保密</h3>
+                    <p class="text-xs text-gray-300">個人資料嚴格遵守私隱條例，確保無後顧之憂。</p>
+                </div>
+                <div class="p-6 bg-white/5 rounded-xl border border-white/10">
+                    <i class="fa-solid fa-handshake-simple text-gold text-4xl mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">親切服侍</h3>
+                    <p class="text-xs text-gray-300">專人一對一親切對接，解答各類貸款疑問。</p>
+                </div>
+                <div class="p-6 bg-white/5 rounded-xl border border-white/10">
+                    <i class="fa-solid fa-sack-dollar text-gold text-4xl mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">無隱藏費用</h3>
+                    <p class="text-xs text-gray-300">不收任何中介費或開戶行政手續費。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Steps Section -->
+    <section id="steps" class="bg-gray-100 py-16 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-navy mb-3">簡單 3 步 輕鬆完成貸款</h2>
+                <p class="text-gray-600">全程線上或 WhatsApp 親切辦理，最快即日到帳</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="bg-white p-8 rounded-xl shadow">
+                    <div class="w-12 h-12 bg-navy text-white rounded-full flex items-center justify-center mx-auto text-xl font-bold mb-4">1</div>
+                    <h4 class="font-bold text-navy text-lg mb-2">網上 / WhatsApp 提交</h4>
+                    <p class="text-gray-600 text-sm">填寫基本聯絡資料，專員於 15 分鐘內主動與您聯絡。</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow">
+                    <div class="w-12 h-12 bg-gold text-white rounded-full flex items-center justify-center mx-auto text-xl font-bold mb-4">2</div>
+                    <h4 class="font-bold text-navy text-lg mb-2">快速審核與方案制定</h4>
+                    <p class="text-gray-600 text-sm">根據您的實際還款能力評估，提供最適切專屬方案。</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow">
+                    <div class="w-12 h-12 bg-navy text-white rounded-full flex items-center justify-center mx-auto text-xl font-bold mb-4">3</div>
+                    <h4 class="font-bold text-navy text-lg mb-2">簽約並即日發放貸款</h4>
+                    <p class="text-gray-600 text-sm">核對身份後，款項直接轉帳至指定香港銀行帳戶。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instant Application Form Section -->
+    <section id="apply" class="py-16 px-4 max-w-4xl mx-auto">
+        <div class="bg-white p-8 md:p-10 rounded-2xl shadow-xl border border-gray-100">
+            <h2 class="text-2xl md:text-3xl font-bold text-navy mb-2 text-center">網上即時貸款申請</h2>
+            <p class="text-gray-500 text-center text-sm mb-8">填寫以下資料，我們的專員將儘快與您聯絡（個人資料絕對嚴格保密）</p>
+
+            <form class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-bold text-gray-700 mb-2">申請人姓名 *</label>
+                        <input type="text" placeholder="例如：張大明" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-gold">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-gray-700 mb-2">聯絡電話 / WhatsApp *</label>
+                        <input type="tel" placeholder="例如：5537 5653" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-gold">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-bold text-gray-700 mb-2">擬申請金額 (HK$) *</label>
+                        <input type="number" placeholder="例如：50000" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-gold">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-gray-700 mb-2">貸款類別 *</label>
+                        <select class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-gold bg-white">
+                            <option>私人快捷貸款</option>
+                            <option>結餘轉戶 (清卡數)</option>
+                            <option>大額 / 企業周轉貸款</option>
+                            <option>其他貸款</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-bold text-gray-700 mb-2">電郵地址 (選填)</label>
+                    <input type="email" placeholder="incomegoldcredit@gmail.com" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-gold">
+                </div>
+
+                <button type="button" class="w-full bg-gold text-white font-bold py-4 rounded-lg hover-gold transition shadow-lg text-lg flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-paper-plane"></i> 提交申請
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section id="contact" class="bg-navy text-white py-16 px-4">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h2 class="text-3xl font-bold mb-6 text-gold">聯絡維港信貸</h2>
+                <p class="text-gray-300 mb-8">我們隨時為您提供親切且專業的財務諮詢，歡迎親臨門市或透過電話、WhatsApp、電郵查詢。</p>
+
+                <div class="space-y-5">
+                    <div class="flex items-start gap-4">
+                        <i class="fa-solid fa-location-dot text-gold text-xl mt-1"></i>
+                        <div>
+                            <strong class="block text-white">公司地址</strong>
+                            <p class="text-gray-300 text-sm">九龍油麻地彌敦道518-520號彌敦行11樓B室</p>
+                            <p class="text-gray-400 text-xs">Room B, 11/F, Nathan Tower, 518-520 Nathan Road, Kowloon</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <i class="fa-solid fa-phone text-gold text-xl"></i>
+                        <div>
+                            <strong class="block text-white">公司電話 / WhatsApp</strong>
+                            <p class="text-gray-300 text-sm flex items-center gap-2">
+                                5537 5653 
+                                <a href="https://wa.me/85255375653" target="_blank" class="bg-[#25D366] text-white text-xs px-2 py-0.5 rounded font-bold hover:opacity-90 transition">
+                                    <i class="fa-brands fa-whatsapp"></i> WhatsApp 點擊對話
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <i class="fa-solid fa-envelope text-gold text-xl"></i>
+                        <div>
+                            <strong class="block text-white">電郵地址</strong>
+                            <p class="text-gray-300 text-sm">incomegoldcredit@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <i class="fa-solid fa-id-card text-gold text-xl"></i>
+                        <div>
+                            <strong class="block text-white">放債人牌照號碼</strong>
+                            <p class="text-gray-300 text-sm">946/2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gray-800/80 rounded-xl p-6 flex flex-col justify-between border border-gray-700">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-3"><i class="fa-solid fa-map-location-dot text-gold"></i> 交通指引</h3>
+                    <p class="text-gray-300 text-sm mb-4">港鐵油麻地站 D 出口，步行約 2 分鐘即可直達彌敦行。</p>
+                </div>
+                <div class="bg-gray-700/50 h-52 rounded-lg flex flex-col items-center justify-center text-gray-300 border border-gray-600 p-4 text-center">
+                    <i class="fa-solid fa-building text-4xl text-gold mb-2"></i>
+                    <span class="font-bold text-white">維港信貸 Income Gold Credit Limited</span>
+                    <span class="text-xs text-gray-400 mt-1">九龍油麻地彌敦道518-520號彌敦行11樓B室</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hong Kong Mandatory Warning Banner -->
+    <div class="bg-amber-100 text-amber-900 font-bold text-center py-4 px-4 text-base md:text-lg border-t-2 border-amber-300">
+        忠告：借錢梗要還，咪俾錢中介
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-gray-400 py-8 px-4 text-xs">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 border-b border-gray-800 pb-6 mb-6">
+            <p>© 2026 維港信貸有限公司 Income Gold Credit Limited. 版權所有，不得轉載。</p>
+            <div class="flex gap-6">
+                <a href="#" class="hover:text-white transition">條款及細則</a>
+                <a href="#" class="hover:text-white transition">私穩政策聲明</a>
+                <a href="#" class="hover:text-white transition">放債人條例</a>
+            </div>
+        </div>
+        <p class="text-center text-gray-500">
+            維港信貸有限公司為香港註冊之認可放債人公司（放債人牌照號碼：946/2026）。所有貸款申請均需經由本公司審核及批核。
+        </p>
+    </footer>
+
+</body>
+</html>
